@@ -70,7 +70,8 @@ END
 - A Google AI Studio API key → [Get one here](https://aistudio.google.com/apikey)
 
 ### 1. Clone the repository
-```bashgit clone https://github.com/swatibuilds/Edynapse-AI-Content-Engine.git
+```
+git clone https://github.com/swatibuilds/Edynapse-AI-Content-Engine.git
 cd Edynapse-AI-Content-Engine
 
 ### 2. Install dependencies
@@ -86,7 +87,7 @@ Edit `.env`:
 ```bashstreamlit run app.py
 
 ---
-
+```
 ## ☁️ Deploying to Streamlit Cloud
 
 1. Push your repo to GitHub
@@ -94,7 +95,7 @@ Edit `.env`:
 3. Select your repo and set `app.py` as the main file
 4. Open **Advanced settings → Secrets** and add:
 ```tomlGOOGLE_API_KEY = "your-google-api-key-here"
-
+```
 5. Click **Deploy** ✅
 
 > ⚠️ Never commit your `.env` file or API key to GitHub.
