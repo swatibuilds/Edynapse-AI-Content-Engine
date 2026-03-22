@@ -5,6 +5,8 @@
 
 **Curriculum-aligned educational content — generated, reviewed, and refined autonomously.**
 
+Live demo: https://edynapse-ai-content-engine.streamlit.app/
+
 
 
 ---
